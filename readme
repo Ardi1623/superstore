@@ -1,0 +1,85 @@
+# 📊 Project 1: Superstore Sales Analysis
+
+## 🎯 Project Objective
+Analyze sales, discounts, and profits in a retail store dataset to uncover actionable business insights and identify areas for strategic improvement.
+
+---
+
+## 🗂️ Dataset
+- Source: [Sample Supermarket Dataset - Kaggle](https://www.kaggle.com/datasets/bravehart101/sample-supermarket-dataset)
+- Environment: Google Colab (Python: Pandas, Seaborn, Matplotlib)
+
+---
+
+## 🔍 Steps of Analysis
+
+### 1. Data Exploration
+- Explored key fields: `Category`, `Sub-Category`, `Region`, `Sales`, `Discount`, `Profit`, and others.
+- Checked data quality and feature types.
+
+### 2. Descriptive Statistics
+- Analyzed total sales by category
+- Evaluated average discounts and profits by sub-category and region
+- Identified feature correlations (`Sales`, `Profit`, `Discount`, `Quantity`)
+
+### 3. Data Visualization
+- Bar charts for sales, discounts, and profit comparison
+- Correlation heatmaps
+- Regional and sub-category level segmentation
+
+---
+
+## 📈 Key Insights
+
+### 🔸 Top-Selling Category
+- `Technology` is the best-performing category with the highest sales contribution.
+
+### 🔸 High Discounts Don't Guarantee Profit
+- Sub-categories such as `Tables` and `Machines` received large discounts but resulted in **negative average profit** in certain regions.
+- Discount shows a **negative correlation** with profit.
+
+### 🔸 Region-Based Sub-Category Performance
+- Profitability varies by region and sub-category:
+  - `Phones` → Highest profit in the West
+  - `Copiers` → Strongest in the East
+- Marketing and stock strategy should be adjusted per region.
+
+---
+
+## ❌ Loss-Making Discounts Analysis
+Using `Region`, `Category`, and `Sub-Category` combinations:
+- Identified products with **high average discounts but negative profits**
+- Example findings:
+  - Region: South | Sub-Category: Tables | Profit: -185.33 | Discount: 35%
+  - Region: East | Sub-Category: Machines | Profit: -92.15 | Discount: 25%
+
+---
+
+## ✅ Business Recommendations
+
+| Area | Recommendation |
+|------|----------------|
+| Product | Prioritize marketing on highly profitable sub-categories like `Phones` and `Accessories` |
+| Discount | Reevaluate aggressive discounting strategies for loss-making items |
+| Region | Strengthen distribution in regions with strong margins |
+| Strategy | Apply region-based product and promotion targeting |
+
+---
+
+## 🛠️ Tools Used
+- Python: Pandas, Seaborn, Matplotlib
+- Platform: Google Colab
+- Dataset: Publicly available on Kaggle
+
+---
+
+## 🧠 Key Takeaways
+Through this project, I practiced:
+- Systematic exploratory data analysis (EDA)
+- Delivering insights using data visualization
+- Translating data into real-world business recommendations
+
+---
+
+📁 This is the first part of my **Data Analyst to Machine Learning Portfolio** series.  
+The dataset can be accessed from Kaggle, and the full analysis was conducted using Python in Google Colab.
